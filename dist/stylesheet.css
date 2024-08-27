@@ -1,0 +1,51 @@
+/* general styles */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+:root {
+    --primary-color: rgb(163, 191, 191);
+    --primary-color-dark: rgb(93, 158, 166);
+    --light-color: rgb(242, 242, 242);
+    --dark-color: rgb(191, 168, 163);
+    --neutral-color-one: rgb(242, 208, 189);
+    --neutral-color-two: rgb(191, 188, 186);
+    --accent-color: rgb(224, 110, 173);
+    --accent-color-mid: rgb(233, 152, 197);
+    --accent-color-light: rgb(249, 226, 238);
+}
+
+/* background video */
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+/* main */
+main {
+    background-color: rgba(249, 226, 238, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* heading */
+.heading-container {
+    margin: 1rem 1rem .5rem 1rem;
+}
+
+/* weather display */
+.content-container {
+    margin: 1rem;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}

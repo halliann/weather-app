@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- links -->
+    <link href="./stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <video id="background-video" autoplay loop muted>
+        <source src="/resources/6772135-uhd_3840_2160_30fps.mp4" type="video/mp4">
+    </video>
+
+    <main class="main-container">
+
+        <!-- heading -->
+        <section class="heading-container">
+            <h1 id="heading">Weather App by Halli</h1>
+        </section>
+
+        <!-- content -->
+        <section class="content-container">
+
+            <!-- search bar -->
+            <div id="search-container">
+                <form id="location-search">
+                    <label for="search-bar"></label>
+                    <input 
+                        id="search-bar" 
+                        name="search-bar" 
+                        type="search"
+                        placeholder="enter location"
+                        required
+                    />
+                    <button><i class="fa fas fa-search"></i></button>
+                </form>
+
+            </div>
+
+            <!-- selected content -->
+            <div class="selected-content-container">
+
+                <!-- 3 day forecast table -->
+                <!-- <div id="search-bar-weather">
+                    <table>
+                        <h4>3 day forecast</h4>
+                        <tr>Today</tr>
+                        <tr>Tomorrow</tr>
+                        <tr>Day After</tr>
+                    </table>
+                </div> -->
+
+                <!-- saved areas list -->
+                <div id="saved-locations">
+                    <ul id="saved-list"></ul>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <h5>Halli DiLullo</h5>
+        <h5>Icons by <a target="_blank" href="https://icons8.com">Icons8</h5>
+    </footer>
+
+    <script src="/src/index.js"></script>
+</body>
+</html>
