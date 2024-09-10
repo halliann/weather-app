@@ -116,7 +116,7 @@ function displayWeather(data) {
         } else if(snowIds.includes(icon)) {
             backgroundVideo.src = '/resources/backgroundVideos/snow.mp4';
             videoCred.textContent = 
-                'Video by Pixabay: https://www.pexels.com/video/video-of-snowfall-854881/';
+                'Video by John-Mark Smith: https://www.pexels.com/video/snow-falling-down-857032/';
         } else if(nightClearIds.includes(icon)) {
             backgroundVideo.src = '/resources/backgroundVideos/clearNight.mp4';
             videoCred.textContent = 
