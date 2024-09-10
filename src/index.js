@@ -108,7 +108,7 @@ function displayWeather(data) {
         } else if(rainyIds.includes(icon)) {
             backgroundVideo.src = '/resources/backgroundVideos/rain.mp4';
             videoCred.textContent = 
-                'Video by Brett Sayles: https://www.pexels.com/video/rainy-day-2059694/';
+                'Video by Ambient_Nature_ Atmosphere from Pexels: https://www.pexels.com/video/a-picturesque-view-of-a-landscape-while-raining-5174040/';
         } else if(stormyIds.includes(icon)) {
             backgroundVideo.src = '/resources/backgroundVideos/storm.mp4';
             videoCred.textContent = 
