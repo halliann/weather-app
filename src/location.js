@@ -1,7 +1,1 @@
 
-
-class Location {
-    constructor() {
-
-    }
-};
